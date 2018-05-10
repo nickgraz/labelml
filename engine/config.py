@@ -6,7 +6,7 @@ import constants as c
 # Main config
 HOSTNAME = socket.gethostname()
 PROJECT_NAME = 'VOC2012'
-PROJECT_PATH = '/bigguy/data/' + PROJECT_NAME
+PROJECT_PATH = 'bigguy/data/' + PROJECT_NAME
 PROJECT_TYPE = c.SEGMENTATION
 IMG_INPUT_FORMATS = [c.JPG]
 IMG_TARGET_FORMATS = [c.BCOLZ] #segmentation or generative

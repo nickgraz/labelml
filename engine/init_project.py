@@ -12,7 +12,7 @@ def init_paths(root, dset_types, input_img_exts, target_img_exts):
         'folds': os.path.join(root, 'folds')
     }
     for key in paths:
-        os.makedirs(paths[key], exist_ok=True)
+        os.makedirs(paths[key])
     
     paths['datasets'] = {}
     datasets_root = os.path.join(root, 'datasets')
